@@ -8,5 +8,6 @@
     steps:
      - name: Hola Mundo
        run: echo "Hola Mundo"
+       shell: bash
 
   
