@@ -1,0 +1,21 @@
+key: Hola Mundo
+
+person:
+  name: David
+  age: 30
+  city: New York
+  country: USA
+  items:
+    - item1
+    - item2
+    - item3
+
+  items2:
+    - item1: Hola
+    - item2: hola
+    - item3: hola
+
+script:
+  script: |
+    touch hola.txt
+    echo "Hola Mundo"
