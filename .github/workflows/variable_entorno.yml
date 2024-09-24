@@ -12,4 +12,7 @@ jobs:
 
     steps:
       - name: Test
+        env:
+          STEP_MY_ENV: Segunda variable nivel step
         run: echo "Valor de la variable es $MY_ENV"
+            echo "Valor de la variable2 es $STEP_MY_ENV"
