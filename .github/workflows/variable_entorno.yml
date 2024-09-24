@@ -1,0 +1,15 @@
+name: Ejemplo de Composite Action
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    env:
+      MY_ENV: Primera variable
+      
+
+
+    steps:
+      - name: Test
+        run: echo "Valor de la variable es $MY_ENV"
