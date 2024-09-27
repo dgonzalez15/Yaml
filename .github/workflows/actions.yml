@@ -3,10 +3,10 @@ name: Accion de boton para controlar lo que se hace
 on: 
   workflow_dispatch:
       inputs:
-        message:
-          description: 'Message'     
+        test:
+          description: 'Test Prueba'     
           required: true
-          default: 'Default message'
+          default: 'Default message test'
 
 jobs:
     test-build:
