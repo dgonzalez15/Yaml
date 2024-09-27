@@ -1,6 +1,12 @@
 name: Accion de boton para controlar lo que se hace
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+      inputs:
+        message:
+          description: 'Message'     
+          required: true
+          default: 'Default message'
 
 jobs:
     test-build:
